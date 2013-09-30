@@ -1,3 +1,11 @@
+//============================================================================
+// Name : QuestStruct.java
+// Author : Rudhir
+// Version :
+// Copyright :
+// Description :
+//============================================================================
+
 package com.android.quiz.app;
 
 public class QuestStruct {
