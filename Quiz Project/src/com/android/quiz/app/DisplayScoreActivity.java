@@ -1,3 +1,11 @@
+//============================================================================
+// Name : DisplayScoreActivity.java
+// Author : Rudhir
+// Version :
+// Copyright :
+// Description :
+//============================================================================
+
 package com.android.quiz.app;
 
 import android.app.Activity;
