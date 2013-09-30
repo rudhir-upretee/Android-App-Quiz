@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget28"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"	>
+	
+		<EditText
+		android:id="@+id/txtData"
+		android:layout_width="fill_parent"
+		android:layout_height="150dp"
+		android:textSize="18sp"
+		android:hint="@string/editTextHint" />
+
+		<Button
+		android:id="@+id/buttonWriteToFile"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+		android:text="@string/buttonTxtWriteToFile"  
+		android:onClick="writeToFile" />
+
+		<Button
+		android:id="@+id/buttonClearScreen"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+		android:text="@string/buttonTxtClearScreen"  
+		android:onClick="clearScreen" />
+		
+		<Button
+		android:id="@+id/buttonReadFromFile"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+		android:text="@string/buttonTxtReadFromFile"  
+		android:onClick="readFromFile" />
+		
+		<Button
+		android:id="@+id/buttonExit"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+		android:text="@string/buttonExitLabel" 
+		android:onClick="exit" />
+
+</LinearLayout>

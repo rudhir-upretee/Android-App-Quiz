@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Quiz</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="title_activity_main">Quiz</string>
+    
+    <string name="textViewUsernameLabel">Username</string>
+    <string name="textViewQuestionFileLabel">Question File</string>
+    <string name="textViewQuestionCntLabel">Question Count</string>
+    <string name="textViewTimeLimitLabel">Time Limit</string>
+    
+    <string name="editTextUsernameHint">Enter your name</string>
+    <string name="editTextHint">Enter some lines here</string>
+    <string name="editTextQuestionFileHint"></string>
+    <string name="editTextQuestionCntHint"></string>
+    <string name="editTextTimeLimitHint"></string>
+    <string name="editTextQuestionHint"></string>
+    
+    <string name="buttonOkLabel">"OK"</string>
+    <string name="buttonExitLabel">"Exit"</string>
+    <string name="buttonSetOptionsLabel">Set Options</string>
+    <string name="buttonDisplayScoreLabel">Display Score</string>
+    <string name="buttonRunQuizLabel">Run Quiz</string>
+    <string name="buttonNextQuestionLabel">Next Question</string>
+    <string name="buttonQuitLabel">Quit</string>
+    <string name="buttonSaveLabel">"Save"</string>
+    <string name="buttonCancelLabel">"Cancel"</string>
+    <string name="buttonTxtWriteToFile">Write To File</string>
+    <string name="buttonTxtClearScreen">Clear Screen</string>
+    <string name="buttonTxtReadFromFile">Read From File</string>
+    
+</resources>

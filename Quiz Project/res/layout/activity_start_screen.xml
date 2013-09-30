@@ -1,0 +1,33 @@
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="250dp"
+android:background="@drawable/compass" 
+android:tileMode="repeat" >
+    
+    <Button
+    android:id="@+id/buttonSetOptions"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="@string/buttonSetOptionsLabel"
+    android:onClick="setOptions" />
+  
+    <Button
+    android:id="@+id/buttonDisplayScore"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="@string/buttonDisplayScoreLabel" 
+    android:onClick="displayScore" />
+    
+    <Button
+    android:id="@+id/buttonRunQuiz"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="@string/buttonRunQuizLabel" 
+    android:onClick="runQuiz" />
+
+</LinearLayout>
